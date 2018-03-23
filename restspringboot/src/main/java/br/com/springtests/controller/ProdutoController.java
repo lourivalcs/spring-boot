@@ -12,6 +12,7 @@ import br.com.springtests.modelo.Produto;
 import br.com.springtests.service.ProdutoService;
 
 @RestController
+@RequestMapping("/api")
 public class ProdutoController {
 	
 	@Autowired

@@ -4,6 +4,15 @@ public class Produto {
 	private Long idProduto;
 	private String nomeProduto;
 	
+	public Produto() {
+		
+	}
+	
+	public Produto(long idProduto, String nomeProduto) {
+		this.setIdProduto(idProduto);
+		this.setNomeProduto(nomeProduto);
+	}
+	
 	public Long getIdProduto() {
 		return this.idProduto;
 	}
